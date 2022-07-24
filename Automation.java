@@ -1,16 +1,30 @@
 package week3.day1.assignments;
 
-public class Automation {
+public class Automation implements Language,TestTool {
 
-	public static void main(String[] args) {
+	
+//Methods Implementation
+	public void selenium() {
+		
+		System.out.println("Implementation of selenium done here");
+	
 		// TODO Auto-generated method stub
 		
-MultipleLanguage multi = new MultipleLanguage();
-multi.java();
-multi.selenium();
-multi.python();
-multi.ruby();
-
 	}
 
+	public void java() {
+		
+		System.out.println("Implementation of Java done here");
+		// TODO Auto-generated method stub
+		
+	}
+	 public static void main(String[] args) {
+		
+		 Automation code= new Automation();
+		 code.selenium();
+		 code.java();
+	}
 }
+		
+
+	
